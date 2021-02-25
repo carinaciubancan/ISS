@@ -9,12 +9,12 @@ Un spital are o farmacie proprie si mai multe sectii. Necesarul de medicamente p
                    ->cantitate
                    ->nivel: urgent/normal
                    ->data expedierii
-                   ->status: realizata/nerealizata
+                   ->status: realizata/realizata partial/nerealizata
        - De pe o sectie se pot înregistra oricâte comenzi
        - Imediat dupa inregistrarea unei comenzii, aceasta poate fi consultata la farmacie. 
                  
   2. un  terminal  pentru  farmacie:
-    -Farmacistii  observa  lista  comenzilor  facute  de  pe  sectii, prioritizata după momentul sosirii acestora si dupa nivel: urgent/normal
+    -  Farmacistii  observa  lista  comenzilor  facute  de  pe  sectii, prioritizata după momentul sosirii acestora si dupa nivel: urgent/normal
     -  Pentru onorarea unei comenzi, farmacistul o selecteaza din lista, (pregateste medicamentele si le trimite pe sectii) dupa care declanseaza un buton "comanda onorata". Acesta schimba statusul comenzii din nerealizata in realizata
     -  În urma acestei acțiuni, comanda este eliminata din lista afisata de farmacie si apare ca si onorata in fereastra sectiei care a inițiat-o. 
 
