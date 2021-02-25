@@ -1,6 +1,6 @@
->####FARMACIE SPITAL
->
->Un spital are o farmacie proprie si mai multe sectii. Necesarul de medicamente pe sectii este deservit de  catre  farmacia  spitalului.  Spitalul  pune  la  >dispozitia  acestora  o  aplicatie  pentru  gestiunea comenzilor de medicamente ale sectiilor si onorarea acestor comenzi din partea farmaciei. Aplicatia este compusa din: 
+#### FARMACIE SPITAL
+
+Un spital are o farmacie proprie si mai multe sectii. Necesarul de medicamente pe sectii este deservit de  catre  farmacia  spitalului.  Spitalul  pune  la  dispozitia  acestora  o  aplicatie  pentru  gestiunea comenzilor de medicamente ale sectiilor si onorarea acestor comenzi din partea farmaciei. Aplicatia este compusa din: 
   **1. mai  multe  terminale  localizate  in  fiecare  sectie:** 
       - Personalul medical de pe sectii foloseste aceste terminale pentru a inregistra comenzile de medicamente.
       -AUTENTIFICARE personal autorizat: user si parola
