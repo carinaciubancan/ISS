@@ -4,17 +4,17 @@ Un spital are o farmacie proprie si mai multe sectii. Necesarul de medicamente p
 >
 >  **1. mai  multe  terminale  localizate  in  fiecare  sectie:** 
 >  
->     - Personalul medical de pe sectii foloseste aceste terminale pentru a inregistra comenzile de medicamente.
->     -AUTENTIFICARE personal autorizat: user si parola
->     - Un element de comanda  refera:
+> - Personalul medical de pe sectii foloseste aceste terminale pentru a inregistra comenzile de medicamente.
+> -AUTENTIFICARE personal autorizat: user si parola
+> - Un element de comanda  refera:
 >                   -user
 >                   -nume medicament
->                  -cantitate
+>                   -cantitate
 >                   -nivel: urgent/normal
 >                   -data expedierii
 >                   -status: realizata/realizata partial/nerealizata
->     - De pe o sectie se pot înregistra oricâte comenzi
->     - Imediat dupa inregistrarea unei comenzii, aceasta poate fi consultata la farmacie. 
+>  - De pe o sectie se pot înregistra oricâte comenzi
+>  - Imediat dupa inregistrarea unei comenzii, aceasta poate fi consultata la farmacie. 
 >                 
 >  **2. un  terminal  pentru  farmacie:**
 >    -  Farmacistii  observa  lista  comenzilor  facute  de  pe  sectii, prioritizata după momentul sosirii acestora si dupa nivel: urgent/normal
