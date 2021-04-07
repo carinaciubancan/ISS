@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="676.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="concursAtletism.controllers.LoginController">
+   <children>
+      <TableView layoutX="35.0" layoutY="37.0" prefHeight="200.0" prefWidth="376.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="Id" />
+          <TableColumn prefWidth="75.0" text="Nume" />
+            <TableColumn prefWidth="75.0" text="Cantitate" />
+            <TableColumn prefWidth="75.0" text="DataExpedierii" />
+            <TableColumn prefWidth="75.0" text="Status" />
+        </columns>
+      </TableView>
+      <Label layoutX="149.0" layoutY="14.0" prefHeight="17.0" prefWidth="148.0" text="Vizualizeaza Lista Comenzi" />
+      <Button layoutX="433.0" layoutY="37.0" mnemonicParsing="false" text="Anuleaza Comanda" />
+      <TableView layoutX="35.0" layoutY="280.0" prefHeight="200.0" prefWidth="297.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="Id" />
+          <TableColumn prefWidth="75.0" text="Nume" />
+            <TableColumn prefWidth="75.0" text="NrBucati" />
+            <TableColumn prefWidth="75.0" text="Gramaj" />
+        </columns>
+      </TableView>
+      <Label layoutX="75.0" layoutY="254.0" text="Lista produselor din stocul farmaciei" />
+      <Label layoutX="107.0" layoutY="494.0" text="Adauga o comanda" />
+      <TextField layoutX="159.0" layoutY="520.0" />
+      <Label layoutX="35.0" layoutY="524.0" text="Medicament" />
+      <Label layoutX="35.0" layoutY="577.0" text="Nr bucati" />
+      <Button layoutX="35.0" layoutY="631.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="271.0" text="Trimite Comanda" />
+      <Spinner layoutX="159.0" layoutY="573.0" />
+      <Label layoutX="35.0" layoutY="549.0" text="Gramaj" />
+      <Spinner layoutX="159.0" layoutY="545.0" />
+      <Label layoutX="383.0" layoutY="295.0" text="Cauta Medicament" />
+      <Label layoutX="377.0" layoutY="312.0" text="dupa denumire si gramaj" />
+      <TextField layoutX="409.0" layoutY="347.0" />
+      <TextField layoutX="409.0" layoutY="387.0" />
+      <Label layoutX="335.0" layoutY="351.0" text="Medicament" />
+      <Label layoutX="364.0" layoutY="391.0" text="Gramaj" />
+      <Button layoutX="407.0" layoutY="423.0" mnemonicParsing="false" prefHeight="9.0" prefWidth="148.0" text="Cautare" />
+   </children>
+</AnchorPane>
